@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  text-align: center;
+  padding: 1.5rem;
+  color: whitesmoke;
+  text-decoration: underline;
+  text-shadow: 2px 2px 2px black;
+}
+h5,
+h6 {
+  text-align: left;
+  padding: 1.5rem;
+  color: whitesmoke;
+  margin-left: 1.5rem;
+  text-decoration: underline;
+  text-shadow: 2px 2px 2px black;
+}
+
+.subtitulos {
+  padding: 1.5rem;
+  color: whitesmoke;
+  text-align: center;
+  text-shadow: 2px 2px 2px black;
+}
+.nav_item {
+  padding: 1.5rem;
+  color: darkgrey;
+  display: inline-flex;
+  inline-size: auto;
+  flex-direction: row;
+  list-style: none;
+  text-decoration: underline;
+  text-shadow: 2px 2px 2px black;
+}
+
+p {
+  margin-left: 1.5rem;
+  padding: 1.5rem;
+  color: whitesmoke;
+  text-shadow: 3px 3px 3px black;
+}
+
+header {
+  text-align: center;
+  text-decoration-color: whitesmoke;
+  padding: 0.5rem;
+  text-shadow: 3px 3px 3px rgb(0, 0, 0);
+}
+
+body {
+  background-image: url(Imgs/dojo.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-size: x-large;
+  background-color: #6b6c6e;
+  text-shadow: 3px 3px 3px black;
+  ima
+}
+
+ul {
+  list-style: none;
+  color: whitesmoke;
+  margin-left: 1.5rem;
+  text-shadow: 2px 2px 2px dblack;
+
+}
+.imagenes {
+  list-style: row;
+  size-adjust: 200px;
+}
+section {
+  text-align: left;
+}
+
