@@ -63,15 +63,13 @@ body {
   font-size: x-large;
   background-color: #6b6c6e;
   text-shadow: 3px 3px 3px black;
-  ima
 }
 
 ul {
   list-style: none;
   color: whitesmoke;
   margin-left: 1.5rem;
-  text-shadow: 2px 2px 2px dblack;
-
+  text-shadow: 2px 2px 2px black;
 }
 .imagenes {
   list-style: row;
@@ -80,4 +78,7 @@ ul {
 section {
   text-align: left;
 }
-
+.sensei {
+  text-shadow: 2px 2px 2px blue;
+  text-decoration: underline;
+}
