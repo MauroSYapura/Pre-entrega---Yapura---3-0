@@ -39,6 +39,9 @@ h6 {
   text-decoration: underline;
   text-shadow: 2px 2px 2px black;
 }
+.nav_item:hover {
+  text-shadow: 3px 2px 2px gold;
+}
 
 p {
   margin-left: 1.5rem;
@@ -71,6 +74,26 @@ ul {
   margin-left: 1.5rem;
   text-shadow: 2px 2px 2px black;
 }
+
+.img-senseimaroli {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-left: 60px;
+  margin-bottom: 50px;
+}
+.senseimaroli {
+  width: 100%;
+  height: 100%;
+  text-align: justify;
+  font-size: 30px;
+}
+.trayectoria-sensei {
+  width: 100%;
+  margin-left: auto;
+  margin-right: 60px;
+  text-align: justify;
+}
 .imagenes {
   list-style: row;
   size-adjust: 200px;
@@ -81,4 +104,11 @@ section {
 .sensei {
   text-shadow: 2px 2px 2px blue;
   text-decoration: underline;
+  margin-left: 3px;
+}
+
+@media (max-width: 600px) {
+  body {
+    text-align: justify;
+  }
 }
