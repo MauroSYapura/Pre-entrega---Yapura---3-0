@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 h1,
@@ -33,6 +34,7 @@ h6 {
   padding: 1.5rem;
   color: darkgrey;
   display: inline-flex;
+  flex-wrap: wrap;
   inline-size: auto;
   flex-direction: row;
   list-style: none;
@@ -41,7 +43,6 @@ h6 {
   font-weight: bold;
   cursor: pointer;
   font-size: 30px;
-  max-width: 390px;
 }
 .nav_item:hover {
   text-shadow: 3px 2px 2px gold;
@@ -94,18 +95,20 @@ ul {
   width: 100%;
   display: flex;
   justify-content: center;
-  margin-left: 60px;
+  margin-left: 250px;
   margin-bottom: 50px;
+  position: relative;
 }
 .senseimaroli {
-  max-width: 390px;
+  min-width: 390px;
   display: flex;
-  text-align: ;
+  flex-wrap: wrap;
   width: 100%;
   height: 100%;
   justify-content: space-between;
   font-size: 30px;
   font-weight: bold;
+  box-sizing: border-box;
 }
 .sensei {
   display: flex;
@@ -113,16 +116,17 @@ ul {
   text-shadow: 2px 2px 2px blue;
   text-decoration: underline;
   margin-left: 3px;
+  box-sizing: border-box;
 }
 
 .trayectoria-sensei {
   display: flex;
   flex-direction: row;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
+  width: 80%;
+  margin: auto;
   font-weight: bold;
   text-align: justify;
+  box-sizing: border-box;
 }
 .imagenes {
   list-style: row;
@@ -130,10 +134,4 @@ ul {
 }
 section {
   text-align: left;
-}
-
-@media (max-width: 600px) {
-  body {
-    text-align: justify;
-  }
 }
