@@ -76,6 +76,7 @@ body {
   background-color: #6b6c6e;
   text-shadow: 3px 3px 3px black;
   box-sizing: border-box;
+  flex-wrap: wrap;
 }
 
 main {
@@ -89,6 +90,7 @@ ul {
   font-weight: bold;
   text-shadow: 2px 2px 2px black;
   margin: auto;
+  flex-wrap: wrap;
 }
 
 .col-md-2-col-xl-6 {
