@@ -56,8 +56,8 @@ h6 {
 p {
   margin-left: 1.5rem;
   padding: 1.5rem;
-  color: whitesmoke;
-  text-shadow: 3px 3px 3px black;
+  color: rgb(255, 255, 255);
+  text-shadow: 3px 3px 3px rgb(52, 71, 249);
 }
 
 header {
@@ -70,7 +70,7 @@ header {
 }
 
 body {
-  background-image: url(Imgs/dojo.jpg);
+  background-image: url(/Imgs/dojo.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -130,13 +130,15 @@ ul {
   box-sizing: border-box;
 }
 
-.trayectoria-sensei {
-  display: flex;
+.trayectoriasensei {
+  color: cadetblue;
+  display: inline;
+  flex-wrap: wrap;
   flex-direction: row;
   width: 100%;
   margin: auto;
   font-weight: bold;
-  text-align: justify;
+  text-align: auto;
   box-sizing: border-box;
 }
 .imagenes {
