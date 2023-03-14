@@ -1,0 +1,19 @@
+{
+  "name": "pre-entrega---yapura---3-0",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "compile": "sass --wacht scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MauroSYapura/Pre-entrega---Yapura---2-0.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MauroSYapura/Pre-entrega---Yapura---2-0/issues"
+  },
+  "homepage": "https://github.com/MauroSYapura/Pre-entrega---Yapura---2-0#readme",
+  "description": ""
+}
