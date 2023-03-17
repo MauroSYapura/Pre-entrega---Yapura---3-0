@@ -75,10 +75,11 @@ p {
 header {
   font-weight: bold;
   text-align: center;
-  text-decoration-color: whitesmoke;
-  padding: 0.5rem;
+  text-decoration-color: rgb(98, 95, 224);
+  padding: 1.5rem;
   text-shadow: 3px 3px 3px rgb(0, 0, 0);
   margin-top: 50px;
+  display: flex;
 }
 
 body {
@@ -163,4 +164,9 @@ section {
 }
 .carousel {
   margin: 50px;
+}
+
+.map-container {
+  text-align: center;
+  padding: 50px;
 }
