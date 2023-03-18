@@ -36,7 +36,7 @@ h6 {
 }
 .nav_item {
   padding: 1.5rem;
-  color: lightblue;
+  color: rgb(237, 243, 114);
   display: inline-flex;
   flex-wrap: wrap;
   inline-size: auto;
@@ -56,7 +56,7 @@ h6 {
 p {
   margin-left: 1.5rem;
   padding: 1.5rem;
-  color: rgb(255, 255, 255);
+  color: rgb(246, 247, 166);
   text-shadow: 3px 3px 3px rgb(52, 71, 249);
 }
 .galeriaimg {
@@ -69,17 +69,17 @@ p {
   width: 80%;
   margin: auto;
   font-weight: bold;
-
   box-sizing: border-box;
 }
 header {
+  min-width: 390px;
+  flex-direction: row;
   font-weight: bold;
   text-align: center;
   text-decoration-color: rgb(98, 95, 224);
   padding: 1.5rem;
   text-shadow: 3px 3px 3px rgb(0, 0, 0);
   margin-top: 50px;
-  display: flex;
 }
 
 body {
@@ -114,19 +114,23 @@ ul {
   box-sizing: border-box;
 }
 .img-senseimaroli {
-  width: 100px;
+  min-width: 390px;
+  flex-direction: row;
+  width: 100%;
   display: flex;
   justify-content: center;
-  margin-left: 700px;
+  margin-left: auto;
   margin-bottom: 50px;
-  position: relative;
 }
+
 .senseimaroli {
+  flex-direction: row;
   min-width: 390px;
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
   font-size: 30px;
   font-weight: bold;
   box-sizing: border-box;
@@ -143,7 +147,6 @@ ul {
 
 .trayectoriasensei {
   color: cadetblue;
-  display: inline;
   flex-wrap: wrap;
   flex-direction: row;
   width: 100%;
@@ -153,8 +156,12 @@ ul {
   box-sizing: border-box;
 }
 
-section {
-  text-align: left;
+.videos {
+  position: relative;
+  display: inline;
+  flex-wrap: wrap;
+  margin-left: 50px;
+  padding: 50%;
 }
 
 .img-fluid {
