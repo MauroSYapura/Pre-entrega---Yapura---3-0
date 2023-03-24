@@ -37,6 +37,7 @@ h6 {
 }
 
 .nav_item {
+  align-self: center;
   width: auto;
   padding: 1.5rem;
   color: rgb(237, 243, 114);

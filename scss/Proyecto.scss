@@ -35,6 +35,7 @@ h6 {
   text-shadow: 2px 2px 2px black;
 }
 .nav_item {
+  align-self: center;
   width: auto;
   padding: 1.5rem;
   color: rgb(237, 243, 114);
@@ -201,4 +202,7 @@ ul {
   min-width: 390px;
   text-align: center;
   padding-left: 18%;
+}
+
+.conteiner-fluid {
 }
