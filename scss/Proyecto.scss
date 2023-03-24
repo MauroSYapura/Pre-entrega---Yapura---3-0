@@ -14,7 +14,7 @@ h3,
 h4 {
   text-align: center;
   padding: 1.5rem;
-  color: whitesmoke;
+  color: blanchedalmond;
   text-decoration: underline;
   text-shadow: 2px 2px 2px black;
 }
@@ -22,7 +22,7 @@ h5,
 h6 {
   text-align: left;
   padding: 1.5rem;
-  color: whitesmoke;
+  color: blanchedalmond;
   margin-left: 1.5rem;
   text-decoration: underline;
   text-shadow: 2px 2px 2px black;
@@ -35,9 +35,10 @@ h6 {
   text-shadow: 2px 2px 2px black;
 }
 .nav_item {
+  width: auto;
   padding: 1.5rem;
   color: rgb(237, 243, 114);
-  display: inline-flex;
+  display: grid;
   flex-wrap: wrap;
   inline-size: auto;
   flex-direction: row;
@@ -62,7 +63,7 @@ p {
 .galeriaimg {
   text-align: center;
   color: cadetblue;
-  display: inline;
+  display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   height: 80%;
@@ -76,6 +77,7 @@ header {
   flex-direction: row;
   font-weight: bold;
   text-align: center;
+  align-items: center;
   text-decoration-color: rgb(98, 95, 224);
   padding: 1.5rem;
   text-shadow: 3px 3px 3px rgb(0, 0, 0);
@@ -83,6 +85,9 @@ header {
 }
 
 body {
+  display: flex;
+  min-width: 390px;
+  size-adjust: auto;
   background-image: url(/Imgs/dojo.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -92,15 +97,24 @@ body {
   font-weight: bold;
   background-color: #ebedf1;
   text-shadow: 3px 3px 3px black;
+  flex-direction: row;
   box-sizing: border-box;
   flex-wrap: wrap;
 }
 
 main {
+  min-width: 390px;
+  grid-row: auto;
+  flex-wrap: wrap;
   margin-bottom: 40px;
 }
 
 ul {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  min-width: 390px;
+  flex-direction: row;
   list-style: none;
   color: whitesmoke;
   margin-left: 1.5rem;
@@ -112,6 +126,10 @@ ul {
 
 .col-md-2-col-xl-6 {
   box-sizing: border-box;
+}
+
+.Pgaleria {
+  justify-items: center;
 }
 .img-senseimaroli {
   min-width: 390px;
@@ -126,7 +144,6 @@ ul {
 .senseimaroli {
   flex-direction: row;
   min-width: 390px;
-  display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   flex-wrap: wrap;
@@ -156,12 +173,14 @@ ul {
   box-sizing: border-box;
 }
 
-.videos {
-  position: relative;
-  display: inline;
-  flex-wrap: wrap;
+.vytd-rich-grid-row {
+  min-width: 390;
+  padding: 50px;
   margin-left: 50px;
-  padding: 50%;
+  align-items: center;
+  display: grid;
+  flex-direction: row;
+  align-items: center;
 }
 
 .img-fluid {
@@ -174,6 +193,12 @@ ul {
 }
 
 .map-container {
-  text-align: center;
+  text-align: left;
   padding: 50px;
+}
+
+.videos {
+  min-width: 390px;
+  text-align: center;
+  padding-left: 18%;
 }
