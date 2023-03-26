@@ -6,6 +6,7 @@
 
 .conteiner-fluid {
   opacity: 90%;
+  display: flex;
   flex-direction: column;
   text-align: center;
 }
@@ -16,29 +17,29 @@ h3,
 h4 {
   text-align: center;
   padding: 1.5rem;
-  color: blanchedalmond;
+  color: rgb(109, 105, 248);
   text-decoration: underline;
   text-shadow: 2px 2px 2px black;
-}
-h5,
-h6 {
-  text-align: left;
-  padding: 1.5rem;
-  color: blanchedalmond;
-  margin-left: 1.5rem;
-  text-decoration: underline;
-  text-shadow: 2px 2px 2px black;
+  h5,
+  h6 {
+    text-align: left;
+    padding: 1.5rem;
+    color: rgb(109, 105, 248);
+    margin-left: 1.5rem;
+    text-decoration: underline;
+    text-shadow: 2px 2px 2px black;
+  }
 }
 
 .subtitulos {
   padding: 1.5rem;
-  color: whitesmoke;
+  color: rgb(109, 105, 248);
   text-align: center;
   text-shadow: 2px 2px 2px black;
 }
 .nav_item {
   align-self: center;
-  width: auto;
+  width: 390px;
   padding: 1.5rem;
   color: rgb(237, 243, 114);
   display: grid;
@@ -47,41 +48,47 @@ h6 {
   flex-direction: row;
   list-style: none;
   text-decoration: underline;
-  text-shadow: 2px 2px 2px black;
+  text-shadow: 2px 2px 2px rgb(199, 193, 193);
   font-weight: bold;
   cursor: pointer;
   font-size: 30px;
+}
+.kata {
+  display: flex;
+  margin-left: 1.5rem;
+  padding: 1.5rem;
+  list-style: none;
+  color: rgba(255, 247, 96, 0.915);
+  text-align: start;
+}
+.nav_item:hover {
+  text-shadow: 3px 2px 2px gold;
+  filter: brightness(120%);
+}
+ul {
+  min-width: 390px;
 
-  ul {
-    text-align: center;
-    align-items: center;
-    display: flex;
-    min-width: 390px;
-    flex-direction: row;
-    list-style: none;
-    color: whitesmoke;
-    margin-left: 1.5rem;
-    font-weight: bold;
-    text-shadow: 2px 2px 2px black;
-    margin: auto;
-    flex-wrap: wrap;
-  }
-
-  .nav_item:hover {
-    text-shadow: 3px 2px 2px gold;
-    filter: brightness(120%);
-  }
+  display: flex;
+  min-width: 390px;
+  flex-direction: column;
+  list-style: none;
+  color: rgb(98, 95, 224);
+  margin-left: 1.5rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px black;
+  margin: auto;
+  flex-wrap: wrap;
 }
 
 p {
   margin-left: 1.5rem;
   padding: 1.5rem;
-  color: rgb(246, 247, 166);
-  text-shadow: 3px 3px 3px rgb(52, 71, 249);
+  color: rgb(109, 105, 248);
+  text-shadow: 3px 3px 3px rgb(0, 0, 0);
 }
 .galeriaimg {
   text-align: center;
-  color: cadetblue;
+  color: rgb(98, 95, 224);
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -93,9 +100,9 @@ p {
 }
 
 body {
-  display: flex;
   min-width: 390px;
-  size-adjust: 100%;
+  display: flex;
+  size-adjust: 80%;
   background-image: url(/Imgs/dojo.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -144,6 +151,16 @@ body {
   justify-content: center;
   margin-left: auto;
   margin-bottom: 50px;
+
+  .sensei {
+    display: flex;
+    flex-direction: column;
+    color: rgb(98, 95, 224);
+    text-shadow: 2px 2px 2px rgb(132, 137, 37);
+    text-decoration: underline;
+    margin-left: 3px;
+    box-sizing: border-box;
+  }
 }
 
 .senseimaroli {
@@ -154,17 +171,9 @@ body {
   font-weight: bold;
   box-sizing: border-box;
 }
-.sensei {
-  display: flex;
-  flex-direction: column;
-  text-shadow: 2px 2px 2px blue;
-  text-decoration: underline;
-  margin-left: 3px;
-  box-sizing: border-box;
-}
 
 .trayectoriasensei {
-  color: cadetblue;
+  color: rgb(98, 95, 224);
   flex-wrap: wrap;
   flex-direction: row;
   width: 100%;
@@ -172,16 +181,6 @@ body {
   font-weight: bold;
   text-align: auto;
   box-sizing: border-box;
-}
-
-.vytd-rich-grid-row {
-  min-width: 390;
-  padding: 50px;
-  margin-left: 50px;
-  align-items: center;
-  display: grid;
-  flex-direction: row;
-  align-items: center;
 }
 
 .img-fluid {
@@ -202,4 +201,18 @@ body {
   min-width: 390px;
   text-align: center;
   padding-left: 18%;
+
+  .vytd-rich-grid-row {
+    min-width: 390;
+    padding: 50px;
+    margin-left: 50px;
+    align-items: center;
+    display: grid;
+    flex-direction: row;
+    align-items: center;
+  }
 }
+
+/*Variables*/
+
+$textcolor: rgb(98, 95, 224);
