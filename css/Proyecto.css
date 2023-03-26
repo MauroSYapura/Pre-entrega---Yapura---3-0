@@ -6,6 +6,8 @@
 
 .conteiner-fluid {
   opacity: 90%;
+  flex-direction: column;
+  text-align: center;
 }
 
 h1,
@@ -80,7 +82,7 @@ p {
 
 header {
   min-width: 390px;
-  flex-direction: row;
+  flex-direction: column;
   font-weight: bold;
   text-align: center;
   align-items: center;
@@ -93,7 +95,7 @@ header {
 body {
   display: flex;
   min-width: 390px;
-  size-adjust: auto;
+  size-adjust: 100%;
   background-image: url(/Imgs/dojo.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -103,7 +105,7 @@ body {
   font-weight: bold;
   background-color: #ebedf1;
   text-shadow: 3px 3px 3px black;
-  flex-direction: row;
+  flex-direction: column;
   box-sizing: border-box;
   flex-wrap: wrap;
 }
@@ -140,21 +142,18 @@ ul {
 
 .img-senseimaroli {
   min-width: 390px;
+  display: flex;
   flex-direction: row;
   width: 100%;
-  display: flex;
   justify-content: center;
   margin-left: auto;
   margin-bottom: 50px;
 }
 
 .senseimaroli {
-  flex-direction: row;
+  flex-direction: column;
   min-width: 390px;
   flex-wrap: wrap;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
   font-size: 30px;
   font-weight: bold;
   box-sizing: border-box;
@@ -162,8 +161,7 @@ ul {
 
 .sensei {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-direction: column;
   text-shadow: 2px 2px 2px blue;
   text-decoration: underline;
   margin-left: 3px;
