@@ -113,7 +113,7 @@ body {
   min-width: 390px;
   display: flex;
   size-adjust: 80%;
-  background-image: url(/Imgs/dojo.jpg);
+  background-image: url(../Imgs/dojo.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
